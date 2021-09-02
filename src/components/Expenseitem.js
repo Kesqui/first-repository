@@ -36,7 +36,6 @@ export default function Expenseitem() {
     }
     const expense = (e) => {
         e.preventDefault();
-        console.log('click', fill)
         setHistory((prev)=>([...prev, fill]))
     }
     return (
